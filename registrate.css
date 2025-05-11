@@ -1,0 +1,224 @@
+body{
+    background-color:#f0dfd2;
+}
+.html{
+    /*Para que sw deslice cuando clic en una opción*/
+    scroll-behavior: smooth;
+}
+
+/*SECCION I N I C I O*/
+#INICIO{
+    display: flex;
+    flex-direction: column;
+}
+#INICIO header{
+    width: 100%;
+}
+#INICIO header .contenido-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+}
+#INICIO header .contenido-header nav{
+    position:absolute ;
+    left: 50%;
+    transform: translate(-50%);
+}
+#INICIO header .contenido-header nav ul{
+    display:flex;
+    list-style:none;
+}
+#INICIO header .contenido-header .logo{
+    color: #ff8f46;
+    font-size: 22px;
+}
+#INICIO header .contenido-header nav ul li{
+    text-align: center;
+}
+#INICIO header .contenido-header nav ul li i{
+    display: block;
+    color: #a8a8a8;
+    margin: 0 20px;
+}
+#INICIO header .contenido-header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #a8a8a8;
+    margin: 0 20px;
+}
+.nav-responsive{
+    font-size: 25px;
+    color: #a8a8a8;
+    display: none;
+}
+#INICIO header .contenido-header nav ul li:hover i{
+    color:#ff8f46;
+}
+#INICIO header .contenido-header .social a{
+    display: inline-block;
+    background-color: #ff8f46;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+/*SECCION F O N D O*/
+
+.encabezado-img{
+    background-image: url(https://th.bing.com/th/id/R.b21aa723f9c9941cee30078a300ab7cc?rik=P7sM5KWDJlBivg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-CTDg5kEEbFQ%2fUPVsPXCplkI%2fAAAAAAAAzKc%2f5TPWB_96xJI%2fs1600%2fVista-de-un-atardecer-en-la-orilla-de-la-playa_imagenes-hd-de-playas-y-atardeceres.jpg&ehk=jTw390s6clKtAHdyNJypMIdbY0lGpmThmkwnZ%2fT8zAU%3d&risl=&pid=ImgRaw&r=0);
+    background-color: rgb(194,249,224);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0,0,0);
+}
+
+.encabezado-img p{
+margin-top: 300px;
+font-size: 50px;
+color:whitesmoke;
+}
+
+.encabezado-img h1{
+    font-size: 80px;
+    color:whitesmoke
+}
+
+.encabezado-img h3{
+    margin-top: 40px;
+    display: inline-block;
+    background-color: #ff8f46;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+     font-size: 25px;
+    margin-bottom: 25px;
+    font-family:'Dancing Script';
+    }
+
+
+
+
+/*SECCION F O R M U L A R I O*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 100%;
+    max-width: 450px;
+    background-color: #ff8f46;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.form-content h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.form-content h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #dbdb2f;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field {
+    background-color: #515966;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 05s;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #dbdb2f;
+}
+
+
+form p{
+    color: #FFFFFF;
+    text-align: l;
+    font-size: 13px;
+}
+
+form p a{
+    color: #dbdb2f;
+    margin-left: 5px;
+}
+
+.btn-field{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button{
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: #dbdb2f;
+    color: #FFFFFF;
+    height: 50px ;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    position:relative;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.grupo{
+    height:50%;
+    
+}

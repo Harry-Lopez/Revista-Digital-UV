@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@300;400;500;700&display=swap');
+*{
+    margin: 10px;
+    padding: 0;
+    font-family: Quicksand'';
+
+}
+body{
+    background-color:#f0dfd2;
+}
+.html{
+    /*Para que sw deslice cuando clic en una opción*/
+    scroll-behavior: smooth;
+}
+
+/*SECCION I N I C I O*/
+#INICIO{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#INICIO header{
+    width: 100%;
+}
+#INICIO header .contenido-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+}
+#INICIO header .contenido-header nav{
+    position:absolute ;
+    left: 50%;
+    transform: translate(-50%);
+}
+#INICIO header .contenido-header nav ul{
+    display:flex;
+    list-style:none;
+}
+#INICIO header .contenido-header .logo{
+    color: #ffaf46;
+    font-size: 22px;
+}
+#INICIO header .contenido-header nav ul li{
+    text-align: center;
+}
+#INICIO header .contenido-header nav ul li i{
+    display: block;
+    color: #263f4ed3;
+    margin: 0 20px;
+}
+#INICIO header .contenido-header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #263f4ed3;
+    margin: 0 20px;
+}
+.nav-responsive{
+    font-size: 25px;
+    color: #263f4ed3;
+    display: none;
+}
+#INICIO header .contenido-header nav ul li:hover i{
+    color:#ff8f46;
+}
+#INICIO header .contenido-header .social a{
+    display: inline-block;
+    background-color: #ff8f46;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+
+/*CARRUSEL*/
+#INICIO .carrusel{
+    position: relative;
+    height: 100%;
+}
+#INICIO .carrusel .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color:#fff;
+    text-align: center;
+}
+#INICIO .carrusel .info h2{
+    font-size: 65px;
+    margin-bottom: 25px;
+    color: white;
+}
+#INICIO .carrusel .info p{
+    font-size: 35px;
+    margin-bottom: 13x;
+    color: white;
+}
+#INICIO .gallery{
+    width: 100%;
+    height: 100%;
+}
+#INICIO .gallery-cell{
+    width: 100%;
+    margin-right: 10px;
+    height: 100%;  
+}
+#INICIO .gallery-cell img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+/*SECIIÓN O P C I O N  E S*/
+#opciones{
+    padding: 50px 0;
+    color: #263f4ed3;
+}
+#opciones h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#opciones .fila{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+#opciones .fila .item img{
+    max-width: 150px;
+}
+#opciones .fila .item{
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+    padding: 5px;
+}
+#opciones .fila .item:hover{
+    background-color: white;
+}
+#opciones .fila .item .info{
+    margin-left: 15px;
+    font-size: 14px;
+}
+#VISITANOS{
+    padding: 50px 0;
+}
+#VISITANOS h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff8f46;
+}
+#VISITANOS .registrate h4{
+    display: inline-block;
+    background-color: #ff8f46;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+     font-size: 25px;
+    margin-bottom: 25px;
+    font-family:'Dancing Script';
+}
+#VISITANOS p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}

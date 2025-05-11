@@ -1,0 +1,162 @@
+body{
+    background-color:#f0dfd2;
+}
+.html{
+    /*Para que sw deslice cuando clic en una opción*/
+    scroll-behavior: smooth;
+}
+
+/*SECCION I N I C I O*/
+#INICIO{
+    display: flex;
+    flex-direction: column;
+}
+#INICIO header{
+    width: 100%;
+}
+#INICIO header .contenido-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+}
+#INICIO header .contenido-header nav{
+    position:absolute ;
+    left: 50%;
+    transform: translate(-50%);
+}
+#INICIO header .contenido-header nav ul{
+    display:flex;
+    list-style:none;
+}
+#INICIO header .contenido-header .logo{
+    color: #ff6f00;
+    font-size: 22px;
+}
+#INICIO header .contenido-header nav ul li{
+    text-align: center;
+}
+#INICIO header .contenido-header nav ul li i{
+    display: block;
+    color: #263f4ed3;
+    margin: 0 20px;
+}
+#INICIO header .contenido-header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #263f4ed3;
+    margin: 0 20px;
+}
+.nav-responsive{
+    font-size: 25px;
+    color: #263f4ed3;
+    display: none;
+}
+#INICIO header .contenido-header nav ul li:hover i{
+    color:#ff6f00;
+}
+#INICIO header .contenido-header .social a{
+    display: inline-block;
+    background-color: #ff6f00;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+/*SECCION F O N D O*/
+
+.encabezado-img{
+    background-image: url(imagenes/Uv.facultad.8.jpg);
+    background-color: rgb(194,249,224);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0,0,0);
+}
+
+.encabezado-img p{
+margin-top: 300px;
+font-size: 80px;
+color:white;
+}
+
+.encabezado-img h1{
+    position: absolute;
+    font-size: 80px;
+    color:whitesmoke;
+}
+
+
+/*SECIIÓN M E N Ú*/
+#MENU{
+    margin:50px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 50px 0;
+    text-align: justify;
+}
+#MENU h2{
+    margin:50px;
+    text-align: center;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ff6f00;
+}
+#MENU h4{
+    margin:50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff8f46;
+    text-align: justify;
+}
+#MENU p{
+    margin:50px;
+    text-align:justify;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(61, 61, 64);
+    text-align: justify;
+}
+#MENU  .fila{
+    margin: 50px;
+    width: 80%;
+    margin:50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap: 30px;
+    text-align: justify;
+}
+#MENU  .fila .item img{
+    margin:50px;
+    max-width: 200px;
+    text-align: justify;
+}
+#MENU  .fila .item{
+    margin:50px;
+    display: flex;
+    align-items: center;
+    margin: 30px 15px;
+    padding: 5px;
+    text-align: justify;
+}
+#MENU  .fila .item:hover{
+    margin:50px;
+    background-color: white;
+    text-align: justify;
+}
+#MENU  .fila .item .info{
+    text-align: justify;
+    margin:50px;
+    margin-left: 15px;
+    font-size: 14px;
+}
